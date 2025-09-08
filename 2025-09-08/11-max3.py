@@ -2,10 +2,17 @@
 
 x = int(input())
 y = int(input())
+z = int(input())
 
 if x >= y:
-    m = x
+    if x >= z:
+        m = x
+    else:
+        m = z
 else:
-    m = y
+    if y >= z:
+        m = y
+    else:
+        m = z
 
 print(m)
