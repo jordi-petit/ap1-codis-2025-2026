@@ -1,10 +1,13 @@
 # llegeix una hora i li suma un segon
 
-h = int(input())
-m = int(input())
-s = int(input())
-print(h, m, s)
+import yogi
 
+# lectura
+h = yogi.read(int)
+m = yogi.read(int)
+s = yogi.read(int)
+
+# càlcul
 s = s + 1
 if s == 60:
     s = 0
@@ -15,4 +18,5 @@ if s == 60:
         if h == 24:
             h = 0
 
+# escriptura
 print(h, m, s)

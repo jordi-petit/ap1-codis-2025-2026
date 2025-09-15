@@ -1,7 +1,9 @@
+# escriu tots els divisors de n
+# una mica lent...
+
 import yogi
 
 n = yogi.read(int)
-
 i = 1
 while i <= n:
     if n % i == 0:
