@@ -1,11 +1,12 @@
 def escriure_hola(cops: int) -> None:
     """Escriu "hola" cops vegades."""
 
-    if cops == 0:
+    # implementació recursiva
+    if cops == 0:       # millor: if cops > 0: ... i sense else
         pass
     else:
-        print("hola")
         escriure_hola(cops - 1)
+        print("hola")
 
 
 escriure_hola(4)

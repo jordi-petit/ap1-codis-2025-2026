@@ -10,7 +10,7 @@ def pintar_quadrat(mida: int) -> None:
 
 
 def pintar_quadrats_girats(mida: int, quants: int) -> None:
-    """..."""
+    """Pinta quants quadrats rotats, cadascun de mida mida."""
 
     for _ in range(quants):
         pintar_quadrat(mida)

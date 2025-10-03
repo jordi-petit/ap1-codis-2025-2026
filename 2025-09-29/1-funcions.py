@@ -1,6 +1,3 @@
-import yogi
-
-
 def maxim2(a: int, b: int) -> int:
     """Donats dos enters, retorna el més gran."""
 
