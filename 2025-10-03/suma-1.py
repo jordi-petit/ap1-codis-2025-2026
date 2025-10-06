@@ -1,3 +1,6 @@
+# programa que suma els enters en una seqüència.
+# el nombre d'elements es dóna al principi.
+
 from yogi import read
 
 n = read(int)
